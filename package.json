@@ -1,0 +1,18 @@
+{
+  "name": "aseguradora-api",
+  "version": "1.0.0",
+  "description": "api Para una aseguradora tipo crud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
+  },
+  "author": "elizon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5"
+  }
+}
